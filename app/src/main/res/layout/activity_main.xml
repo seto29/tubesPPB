@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_homebg"
-    tools:context=".MainActivity">
+    tools:context="com.rajendra.tubes.MainActivity">
 
     <TextView
         android:id="@+id/textView7"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="@font/graphikmedium"
-        android:text="Wear a\nface mask"
+        android:text="Pakai Masker"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@android:color/background_dark"
@@ -47,7 +47,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/graphiksemibold"
-        android:text="Covid-19"
+        android:text="Tubes"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,22 +63,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView">
 
-        <ImageView
-            android:id="@+id/flag"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginBottom="12dp"
-            app:srcCompat="@drawable/india" />
-
-        <Spinner
-            android:id="@+id/spinner"
-            android:layout_width="100dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginBottom="12dp" />
-
 
     </LinearLayout>
 
@@ -89,36 +73,22 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/graphiksemibold"
-        android:text="Are you feeling sick?"
+        android:text="Login"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/graphikregular"
-        android:lineSpacingExtra="8dp"
-        android:text="If you feel sick with any of covid-19 symptoms\nplease call or SMS us immediately for help."
-        android:textColor="#FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="141dp"
         android:layout_height="45dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/call_button"
-        android:drawableLeft="@drawable/ic_phone"
         android:drawablePadding="8dp"
         android:fontFamily="@font/graphikmedium"
         android:paddingLeft="16dp"
-        android:text="Call Now"
+        android:text="Reset"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
@@ -126,18 +96,17 @@
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="146dp"
         android:layout_height="45dp"
         android:background="@drawable/send_sms_button"
-        android:drawableLeft="@drawable/ic_message_circle"
         android:drawablePadding="8dp"
         android:fontFamily="@font/graphikmedium"
         android:paddingLeft="16dp"
-        android:text="Send SMS"
+        android:text="Login"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
@@ -155,7 +124,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="75dp"
         android:fontFamily="@font/graphikmedium"
-        android:text="Prevention"
+        android:text="Tetap Patuhi Protokol"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -200,7 +169,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="@font/graphikmedium"
-        android:text="Avoid close\ncontact"
+        android:text="Jaga Jarak"
         android:textAlignment="center"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
@@ -213,7 +182,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="@font/graphikmedium"
-        android:text="Clean your\nhand often"
+        android:text="Cuci Tangan"
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"

@@ -1,13 +1,13 @@
-package com.rajendra.covid_19;
+package com.rajendra.tubes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
+
+import com.rajendra.covid_19.R;
 
 public class Statistics extends AppCompatActivity {
 

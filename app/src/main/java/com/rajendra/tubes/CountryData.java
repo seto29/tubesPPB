@@ -1,4 +1,6 @@
-package com.rajendra.covid_19;
+package com.rajendra.tubes;
+
+import com.rajendra.covid_19.R;
 
 public class CountryData {
 
